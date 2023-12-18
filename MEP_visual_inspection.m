@@ -7,12 +7,12 @@
 % Range of amplitude: -50uV ~ 50uV.
 % Variables:
 % page_max: maximum number of the page for the waveforms.
-% MEP_state: MEP data of this state (or conditon)
+% MEP_state: MEP data of this state (or condition)
 % no_M1: the sequence number of the trial (MEP recording)
 % no_plot: the plot correlate to the no_M1
 % position: the sequence number of the plot in a page (1-30).
 
-page_max=ceil(length(MEP_state)/30); %how many page to show the MEP waveforms. Each page include 30 MEP trials.
+page_max=ceil(length(MEP_state)/30); %how many pages to show the MEP waveforms. Each page includes 30 MEP trials.
     for k=1:page_max
          figure;
          position=1;
