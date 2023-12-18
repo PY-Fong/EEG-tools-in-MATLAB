@@ -3,7 +3,7 @@
 %=========================================================================%
 % Authors: Po-Yu Fong 
 % Date last updated: 18-12-2023
-% To display all the waveforms of MEP recording with 1000 smamples in time.
+% To display all the waveforms of MEP recording with 1000 samples in time.
 % Range of amplitude: -50uV ~ 50uV.
 % Variables:
 % page_max: maximum number of the page for the waveforms.
